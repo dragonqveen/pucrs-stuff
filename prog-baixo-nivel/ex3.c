@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void printa(float valor) {
-    printf("%f\n", valor);
+    printf("%f\n.2", valor);
 }
 
 void calculadora (float n, char op, float m) {

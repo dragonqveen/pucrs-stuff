@@ -3,7 +3,7 @@
 // operação (tipo int), parcela_1 (tipo float) e parcela_2 (tipo float).
 
 void printa(float valor) {
-    printf("%f\n", valor);
+    printf("%f.2\n", valor);
 }
 
 void calculadora(int op, float n, float m){
@@ -24,7 +24,7 @@ void calculadora(int op, float n, float m){
 }
 
 void main (){
-    printf("Calculadora - Digite a operacao e 2 valores\n");
+    printf("Calculadora - Digite a operacao e 2 valores");
     int op;
     float n, m;
 
